@@ -10,6 +10,17 @@
   padding-left: 30px;
 }
 
+.practical {
+  padding-left: 30px;
+  background-color: rgba(0,0,0, 1);
+  border: 1px solid rgba(0, 205, 206,.2);
+}
+
+.whimsical {
+  padding-left: 30px;
+  background-color: rgba(255,255,255, 1);
+  border: 1px solid rgba(0, 205, 206,.2);
+}
 
 h1 {
   padding-bottom:20px;
@@ -49,32 +60,12 @@ h3 {
 img {
   width: 25%;
   float: left;
-  margin-bottom: 15px;
   margin-right: 15px;
 
 }
 
 
-.headleft {
-  text-align: left;
-  padding-left: 30px;
-  color: white;
-}
-
-.headright {
-  width: 100%;
-  text-align: left;
-  padding-left: 30px;
-  color: black;
-}
-
-
-.lftdiv {
-  width: 90%;
-  height: 90%;
-  border: 0px;
-  border-collapse: collapse;
-  text-transform: lowercase;
+.whitetext {
   font-family: sans-serif;
   color: #FFFFFF;
   font-size: 16px;
@@ -83,12 +74,7 @@ img {
 
 }
 
-.rtdiv {
-  width: 90%;
-  height: 90%;
-  border: 0px;
-  border-collapse: collapse;
-  text-transform: lowercase;
+.blacktext {
   font-family: sans-serif;
   color: #000000;
   font-size: 16px;
@@ -96,11 +82,6 @@ img {
   display: inline-block;
 }
 
-
-.wrapper {
-  width: 100%;
-  height: 100%
-}
 
 a {
   color: #000000;
@@ -121,37 +102,12 @@ a.whitelink {
   text-decoration: underline;
 }
 
-/* middle table */
-
-.left-column {
-  float: left;
-  width: 50%;
-  background-color: #000000;
-}
-
-.right-column {
-  float: right;
-  width: 50%;
-  background-color: #FFFFFF;
-}
-
-.header {
-  padding: 30px;
-  width: 100%;
-  height: 130px;
-  background-color: rgb(0,204,204);
-}
 
 
 body {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-
-img {
-  padding-bottom: 1rem;
-}
+} 
 
 .navrow {
   background-color: rgba(0,204,204, 1);
@@ -159,7 +115,6 @@ img {
 }
 
 .row .row {
-  margin-top: 1rem;
   margin-bottom: 0;
 }
 
