@@ -60,10 +60,7 @@ h3 {
 img {
   width: 25%;
   float: left;
-  margin-right: 15px;
-
 }
-
 
 .whitetext {
   font-family: sans-serif;
@@ -71,6 +68,7 @@ img {
   font-size: 16px;
   padding: 30px;
   display: inline-block;
+  line-height: 20px;
 
 }
 
@@ -80,6 +78,7 @@ img {
   font-size: 16px;
   padding: 30px;
   display: inline-block;
+  line-height: 20px;
 }
 
 
@@ -125,5 +124,17 @@ body {
 }
 
 
+.parallax { 
+    /* The image used */
+    background-image: url("https://cdn.shutterstock.com/shutterstock/videos/20107672/thumb/1.jpg");
 
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
