@@ -6,8 +6,10 @@
     line-height: 30px;
 }
 
-.indent {
-  padding-left: 30px;
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+
 }
 
 .practical {
@@ -85,6 +87,7 @@ img {
 a {
   color: #000000;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 a:hover {
@@ -101,12 +104,6 @@ a.whitelink {
   text-decoration: underline;
 }
 
-
-
-body {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-} 
 
 .navrow {
   background-color: rgba(0,204,204, 1);
