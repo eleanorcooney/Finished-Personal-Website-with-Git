@@ -6,11 +6,6 @@
     line-height: 30px;
 }
 
-.wrapper {
-  width: 900px;
-  margin: 0 auto;
-
-}
 
 .practical {
   padding-left: 30px;
@@ -120,7 +115,14 @@ a.whitelink {
   border: 1px solid rgba(0, 205, 206,.2);
 }
 
-
+.bimages {
+  float: left;
+  border: 1px solid white;
+  width: 25%;
+  height:25%;
+  margin: 10px;
+  background-image: url("../assets/placeholder3.png");
+}
 .parallax { 
     /* The image used */
     background-image: url("https://cdn.shutterstock.com/shutterstock/videos/20107672/thumb/1.jpg");
@@ -134,4 +136,3 @@ a.whitelink {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
