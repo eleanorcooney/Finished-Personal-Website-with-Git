@@ -118,8 +118,8 @@ a.whitelink {
 .bimages {
   float: left;
   border: 1px solid white;
-  width: 25%;
-  height:25%;
+  width: 250px;
+  height:250px;
   margin: 10px;
   background-image: url("../assets/placeholder3.png");
 }
@@ -136,3 +136,17 @@ a.whitelink {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* 0 - 400 */
+@media all and (max-width: 400px) {
+
+  .bimages {
+    float: left;
+    border: 1px solid white;
+    width: 100px;
+    height:100px;
+    margin: 10px;
+    background-image: url("../assets/placeholder3.png");
+}
+}
+
