@@ -129,7 +129,7 @@ a.whitelink {
     background-image: url("https://cdn.shutterstock.com/shutterstock/videos/20107672/thumb/1.jpg");
 
     /* Set a specific height */
-    height: 500px; 
+    height: 300px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -156,4 +156,38 @@ a.whitelink {
   background-position: center; 
   background-repeat: no-repeat;
   background-image: url("../assets/lotus.png");
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 500px;
+    margin: 0px 30px;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+    color: #FFFFFF;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
 }
